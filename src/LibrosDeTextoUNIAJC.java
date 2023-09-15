@@ -17,5 +17,6 @@ public class LibrosDeTextoUNIAJC extends LibrosDeTexto {
   @Override
   public void imprimirEnPantalla() {
     super.imprimirEnPantalla();
+    System.out.println("Facultad: " + facultad);
   }
 }

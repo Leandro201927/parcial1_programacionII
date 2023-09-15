@@ -17,5 +17,6 @@ public class LibrosDeTexto extends Libro {
   @Override
   public void imprimirEnPantalla() {
     super.imprimirEnPantalla();
+    System.out.println("Curso: " + curso);
   }
 }

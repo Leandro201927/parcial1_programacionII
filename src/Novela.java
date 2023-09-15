@@ -18,5 +18,6 @@ public class Novela extends Libro {
   @Override
   public void imprimirEnPantalla() {
     super.imprimirEnPantalla();
+    System.out.println("Tipo de novela: " + tipo);
   }
 }

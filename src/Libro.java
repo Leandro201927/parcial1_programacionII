@@ -9,12 +9,6 @@ public class Libro {
     this.precio = precio;
   }
 
-  public void imprimirEnPantalla() {
-    System.out.println("Título: " + titulo);
-    System.out.println("Autor: " + autor);
-    System.out.println("Precio: " + precio);
-  }
-
   public String getAutor() {
     return autor;
   }
@@ -37,5 +31,11 @@ public class Libro {
 
   public void setTitulo(String titulo) {
     this.titulo = titulo;
+  }
+
+  public void imprimirEnPantalla() {
+    System.out.println("Título: " + titulo);
+    System.out.println("Autor: " + autor);
+    System.out.println("Precio: " + precio);
   }
 }
